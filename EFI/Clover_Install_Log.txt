@@ -1,0 +1,54 @@
+
+Clover EFI installer log - Tue Dec 25 00:47:13 JST 2018
+Installer version: v2.4k r4813 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk3         255.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:          Apple_CoreStorage Fusion Drive            479.8 GB   disk1s2
+   3:                 Apple_Boot Boot OS X               134.2 MB   disk1s3
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:          Apple_CoreStorage Fusion Drive            4.0 TB     disk2s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk2s3
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            64.2 GB    disk3s1
+   2:                APFS Volume Preboot                 45.1 MB    disk3s2
+   3:                APFS Volume Recovery                517.0 MB   disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
+
+/dev/disk4 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS DATA                   +4.5 TB     disk4
+                                 Logical Volume on disk1s2, disk2s2
+                                 3066E496-FD47-40FD-A20E-8C9674B7087E
+                                 Unencrypted Fusion Drive
+
+Target volume /Volumes/Macintosh HD on disk3 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r4784/2018-12-25-00h47/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
